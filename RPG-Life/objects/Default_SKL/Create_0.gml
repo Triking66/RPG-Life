@@ -1,16 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
-name = "???";
-base_hit = 0;
+skill_num = 0; // Where to display/be clickable.
 
-atk_mod = 0;
-m_atk_mod = 0;
+skill_name = "???"; // Display name
+base_hit = 0; // Hit chance without modifiers
 
-def_mod = 0;
-m_def_mod = 0;
+atk_mod = 0; // Modifier to user's attack
+m_atk_mod = 0; // Modifier to user's magic attack
+
+def_mod = 0; // Modifier to target's defense
+m_def_mod = 0; // Modifier to target's magic defense
 
 type = 0;
 // 0: No damage, 1: Physical damage, 2: Magic damage, 3: Healing
+
+range = [1, "Adj"];
+// Range of attack, and area of effect
 
 status_turn = 0; // How many turns to give status
 status = [];

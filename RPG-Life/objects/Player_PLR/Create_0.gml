@@ -4,6 +4,7 @@ randomize();
 Name = "Player 1";
 
 Max_HP = irandom(100) + 450;
+Max_HP = 99999
 HP = Max_HP;
 
 Max_MP = irandom(50) + 225;
@@ -32,6 +33,6 @@ need_xp = 10;
 Lvl = 1;
 job_lvl = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 // 0: Warrior, 1: Defender, 2: Theif, 3: Black Mage, 4: White Mage
-// 5: Paladin, 6: Tank, 7: Ninja, 8: Summoner, 9: Spellsword
+// 5: Paladin, 6: Tank, 7: Ninja, 8: Summoner, 9: Priest
 
 persistent = true;

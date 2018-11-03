@@ -1,38 +1,38 @@
 {
-    "id": "4809568f-37e4-4284-bf13-b5a5e9c474c2",
+    "id": "56bd13d5-399f-43de-ac4e-b27533b6c7e3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Camera",
+    "name": "EndTurn_BTN",
     "eventList": [
         {
-            "id": "bcad3cd4-925d-416f-a61c-db4abecca891",
+            "id": "35a8a83e-8d35-4b5f-a404-0d875261d8a9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "4809568f-37e4-4284-bf13-b5a5e9c474c2"
+            "m_owner": "56bd13d5-399f-43de-ac4e-b27533b6c7e3"
         },
         {
-            "id": "c7727d84-837f-44d8-a8f6-0e44995c661f",
+            "id": "b141a4dc-83a4-4dea-a84a-910eb1af5e06",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4809568f-37e4-4284-bf13-b5a5e9c474c2"
-        },
-        {
-            "id": "3c8303ba-dc07-4dfe-8eef-d8f6da2f4879",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 74,
+            "enumb": 64,
             "eventtype": 8,
-            "m_owner": "4809568f-37e4-4284-bf13-b5a5e9c474c2"
+            "m_owner": "56bd13d5-399f-43de-ac4e-b27533b6c7e3"
+        },
+        {
+            "id": "7be41aa4-c70b-425f-805c-f8ed8956cce8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "56bd13d5-399f-43de-ac4e-b27533b6c7e3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "135ff8da-e356-4b3f-8efe-7afe1c2d243c",
     "visible": true
 }

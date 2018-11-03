@@ -1,38 +1,18 @@
 {
-    "id": "4809568f-37e4-4284-bf13-b5a5e9c474c2",
+    "id": "4a24573a-c0a5-469a-b21c-2a0023a6aff2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Camera",
+    "name": "Startup",
     "eventList": [
         {
-            "id": "bcad3cd4-925d-416f-a61c-db4abecca891",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "4809568f-37e4-4284-bf13-b5a5e9c474c2"
-        },
-        {
-            "id": "c7727d84-837f-44d8-a8f6-0e44995c661f",
+            "id": "1b3e4fcc-5f83-49f8-b7c4-d1a3592ba5e1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4809568f-37e4-4284-bf13-b5a5e9c474c2"
-        },
-        {
-            "id": "3c8303ba-dc07-4dfe-8eef-d8f6da2f4879",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 74,
-            "eventtype": 8,
-            "m_owner": "4809568f-37e4-4284-bf13-b5a5e9c474c2"
+            "m_owner": "4a24573a-c0a5-469a-b21c-2a0023a6aff2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
