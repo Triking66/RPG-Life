@@ -25,3 +25,5 @@ status = [];
 stat_change = [0, 0, 0, 0, 0] // modifier to target stats on hit
 // Atk, M_Atk, Def, M_Def, Spd
 
+selected = false;
+

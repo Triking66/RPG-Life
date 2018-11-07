@@ -15,8 +15,10 @@ if !taking_turn{
 		Cmd_time += 100 * Spd / tot_spd;
 		if Cmd_time >= 1000 and not DungeonControl.taking_turn {
 			DungeonControl.taking_turn = true;
+			DungeonControl.turn_plr = id;
 			turn = true;
 			GetAbilities(0, 1, 1, 0);
+			Camera.following = id;
 		}
 	}
 	

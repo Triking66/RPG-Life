@@ -4,7 +4,6 @@ randomize();
 Name = "Player 1";
 
 Max_HP = irandom(100) + 450;
-Max_HP = 99999
 HP = Max_HP;
 
 Max_MP = irandom(50) + 225;
@@ -22,6 +21,8 @@ Cmd_time = 0;
 Mvmt = irandom(2) + 3;
 Cur_MV = 0;
 
+base_stats = [Max_HP, Max_MP, Atk, M_Atk, Def, M_Def, Spd, Mvmt];
+
 Hunger = 1000;
 Thirst = 1000;
 
@@ -34,5 +35,7 @@ Lvl = 1;
 job_lvl = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 // 0: Warrior, 1: Defender, 2: Theif, 3: Black Mage, 4: White Mage
 // 5: Paladin, 6: Tank, 7: Ninja, 8: Summoner, 9: Priest
+
+statuses = ds_list_create()
 
 persistent = true;
