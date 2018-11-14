@@ -8,6 +8,8 @@ var inst;
 var skill_id = 0;
 var jlev = 0;
 
+instance_destroy(Default_SKL);
+
 inst = instance_create_layer(0, 0, "Instances", Default_SKL);
 with(inst){
 	skill_name = "Attack";
