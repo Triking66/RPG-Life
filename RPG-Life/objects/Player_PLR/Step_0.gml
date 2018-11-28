@@ -43,22 +43,22 @@ if !global.inventory_open {
 	else if turn and Cur_MV < Mvmt { 
 		// Restricts movement to while it's your turn, and have movement left.
 		if(keyboard_check_pressed(ord("A"))){
-			if CastleMove(0) {
+			if DungeonMove(0) {
 				Cur_MV += 1
 			}
 		}
 		else if(keyboard_check_pressed(ord("W"))){
-			if CastleMove(1) {
+			if DungeonMove(1) {
 				Cur_MV += 1
 			}
 		}
 		else if(keyboard_check_pressed(ord("D"))){
-			if CastleMove(2) {
+			if DungeonMove(2) {
 				Cur_MV += 1
 			}
 		}
 		else if(keyboard_check_pressed(ord("S"))){
-			if CastleMove(3) {
+			if DungeonMove(3) {
 				Cur_MV += 1
 			}
 		}

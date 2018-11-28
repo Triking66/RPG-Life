@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "681f0380-b764-4588-a540-6ee3af08b98a",
+            "Value": {
+                "id": "6f1c8580-490a-4ecb-be70-51009425732e",
+                "resourcePath": "scripts\\DungeonMove\\DungeonMove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6dab75de-6aec-463f-a769-fbd93ba002a9",
             "Value": {
                 "id": "5653095c-2c60-44f2-ad15-38d345268295",
@@ -495,14 +503,6 @@
             }
         },
         {
-            "Key": "c7997d49-10db-494d-bd0d-caff8f8761b7",
-            "Value": {
-                "id": "8ad34d16-fac2-4633-a491-fa53bcad2eb6",
-                "resourcePath": "objects\\Floor_GEN\\Floor_GEN.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c7d1c9f6-8a75-4785-b5f8-5b84fa93c9f8",
             "Value": {
                 "id": "6103c50a-a0e3-4f81-a4f6-17fee4266ee6",
@@ -682,6 +682,7 @@
     "script_order": [
         "9196cde3-4b9a-479c-b0c0-1d82d207a106",
         "0fb716b2-eef1-4012-a302-efeaa0578fc1",
+        "681f0380-b764-4588-a540-6ee3af08b98a",
         "c7d1c9f6-8a75-4785-b5f8-5b84fa93c9f8",
         "8fd4afd6-e562-42b0-bcad-123e864be696",
         "dcbb9679-760a-4ca5-a8d1-d537f7ed2821",

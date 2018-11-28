@@ -3,3 +3,4 @@
 taking_turn = false;
 turn_plr = noone;
 Player_PLR.Cur_MV = 0;
+GenerateLevel();
